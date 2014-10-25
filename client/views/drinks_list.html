@@ -1,0 +1,9 @@
+<template name="drink_list">
+    <ul>
+        {{#each drinks}}
+        <li>{{name}} {{likes}} likes <button>Like</button></li>
+        {{else}}
+        <li>No drinks</li>
+        {{/each}}
+    </ul>
+</template>
